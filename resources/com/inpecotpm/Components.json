@@ -1,0 +1,250 @@
+[
+  {
+    "MainComponentName": "HEALTH GATEWAY",
+    "MainComponentID": "hgw",
+    "GitRepository": "healthgateway-backend",
+    "PactName": null,
+    "ConsulKey": "healthgateway-backend",
+    "ComponentName": "hgw-backend"
+  },
+  {
+    "MainComponentName": "HEALTH GATEWAY",
+    "MainComponentID": "hgw",
+    "GitRepository": "healthgateway-consentmanager",
+    "PactName": null,
+    "ConsulKey": "healthgateway-consentmanager",
+    "ComponentName": "hgw-consent-manager"
+  },
+  {
+    "MainComponentName": "HEALTH GATEWAY",
+    "MainComponentID": "hgw",
+    "GitRepository": "healthgateway-dispatcher",
+    "PactName": null,
+    "ConsulKey": "healthgateway-dispatcher",
+    "ComponentName": "hgw-dispatcher"
+  },
+  {
+    "MainComponentName": "HEALTH GATEWAY",
+    "MainComponentID": "hgw",
+    "GitRepository": "healthgateway-frontend",
+    "PactName": null,
+    "ConsulKey": "healthgateway-frontend",
+    "ComponentName": "hgw-frontend"
+  },
+  {
+    "MainComponentName": "HEALTH GATEWAY",
+    "MainComponentID": "hgw",
+    "GitRepository": "healthgateway-kafka",
+    "PactName": null,
+    "ConsulKey": null,
+    "ComponentName": "hgw-kafka"
+  },
+  {
+    "MainComponentName": "HEALTH GATEWAY",
+    "MainComponentID": "hgw",
+    "GitRepository": "healthgateway-tscns",
+    "PactName": null,
+    "ConsulKey": null,
+    "ComponentName": "hgw-tscns"
+  },
+  {
+    "MainComponentName": "WEB APP",
+    "MainComponentID": "wa",
+    "GitRepository": "tpm-webapp-front",
+    "PactName": null,
+    "ConsulKey": "tpm-webapp-frontend",
+    "ComponentName": "wa-frontend"
+  },
+  {
+    "MainComponentName": "WEB APP",
+    "MainComponentID": "wa",
+    "GitRepository": "tpm-webapp-frontend",
+    "PactName": "tpm-webapp-frontend",
+    "ConsulKey": "wa-frontend",
+    "ComponentName": "new-wa-frontend"
+  },
+  {
+    "MainComponentName": "WEB APP",
+    "MainComponentID": "wa",
+    "GitRepository": "tpm-webapp-backend",
+    "PactName": "tpm-webapp-backend",
+    "ConsulKey": "tpm-webapp-backend",
+    "ComponentName": "wa-backend"
+  },
+  {
+    "MainComponentName": "VIRTUAL DRAWER",
+    "MainComponentID": "vd",
+    "GitRepository": "tpm-destination-channelregistry",
+    "PactName": "tpm-destination-channelregistry",
+    "ConsulKey": "tpm-destination-channelregistry",
+    "ComponentName": "vd-channel-registry"
+  },
+  {
+    "MainComponentName": "VIRTUAL DRAWER",
+    "MainComponentID": "vd",
+    "GitRepository": "tpm-destination-clinicaldatastorage",
+    "PactName": "tpm-destination-clinicaldatastorage",
+    "ConsulKey": "tpm-destination-clinicaldatastorage",
+    "ComponentName": "vd-clinical-data-storage"
+  },
+  {
+    "MainComponentName": "VIRTUAL DRAWER",
+    "MainComponentID": "vd",
+    "GitRepository": "tpm-destination-dataimportworker",
+    "PactName": null,
+    "ConsulKey": "tpm-destination-dataimportworker",
+    "ComponentName": "vd-data-import-worker"
+  },
+  {
+    "MainComponentName": "VIRTUAL DRAWER",
+    "MainComponentID": "vd",
+    "GitRepository": "tpm-destination-flowrequest",
+    "PactName": null,
+    "ConsulKey": "tpm-destination-flowrequest",
+    "ComponentName": "vd-flow-request"
+  },
+  {
+    "MainComponentName": "VIRTUAL DRAWER",
+    "MainComponentID": "vd",
+    "GitRepository": "tpm-destination-medicalfacilities",
+    "PactName": "tpm-destination-medicalfacilities",
+    "ConsulKey": "tpm-destination-medicalfacilities",
+    "ComponentName": "vd-medical-facilities"
+  },
+  {
+    "MainComponentName": "VIRTUAL DRAWER",
+    "MainComponentID": "vd",
+    "GitRepository": "tpm-destination-healthgatewayadapter",
+    "PactName": null,
+    "ConsulKey": "tpm-destination-healthgatewayadapter",
+    "ComponentName": "vd-healthgateway-adapter"
+  },
+  {
+    "MainComponentName": "VIRTUAL DRAWER",
+    "MainComponentID": "vd",
+    "GitRepository": "tpm-destination-redirectservice",
+    "PactName": null,
+    "ConsulKey": "tpm-destination-redirectservice",
+    "ComponentName": "vd-redirect"
+  },
+  {
+    "MainComponentName": "VIRTUAL DRAWER",
+    "MainComponentID": "vd",
+    "GitRepository": "tpm-destination-datasharingservice",
+    "PactName": "tpm-destination-datasharingservice",
+    "ConsulKey": "tpm-destination-datasharingservice",
+    "ComponentName": "vd-data-sharing"
+  },
+  {
+    "MainComponentName": "PASS",
+    "MainComponentID": "pass",
+    "GitRepository": "keycloak",
+    "PactName": null,
+    "ConsulKey": null,
+    "ComponentName": "pass-keycloak"
+  },
+  {
+    "MainComponentName": "PASS",
+    "MainComponentID": "pass",
+    "GitRepository": "pass-api",
+    "PactName": "pass-api",
+    "ConsulKey": "pass-api",
+    "ComponentName": "pass-api"
+  },
+  {
+    "MainComponentName": "PASS",
+    "MainComponentID": "pass",
+    "GitRepository": "tpm-identity-matching-service",
+    "PactName": null,
+    "ConsulKey": "tpm-identity-matching-service",
+    "ComponentName": "pass-identity-matching-service"
+  },
+  {
+    "MainComponentName": "CLINICAL DOMAIN",
+    "MainComponentID": "cd",
+    "GitRepository": "tpm-source-authorization-server",
+    "PactName": null,
+    "ConsulKey": "cd-authorization-server-brotzu",
+    "ComponentName": "cd-authorization-server-brotzu"
+  },
+  {
+    "MainComponentName": "CLINICAL DOMAIN",
+    "MainComponentID": "cd",
+    "GitRepository": "tpm-source-authorization-server",
+    "PactName": null,
+    "ConsulKey": "cd-authorization-server-molinette",
+    "ComponentName": "cd-authorization-server-molinette"
+  },
+  {
+    "MainComponentName": "CLINICAL DOMAIN",
+    "MainComponentID": "cd",
+    "GitRepository": "tpm-source-authorization-server",
+    "PactName": null,
+    "ConsulKey": "cd-authorization-server-pula",
+    "ComponentName": "cd-authorization-server-pula"
+  },
+  {
+    "MainComponentName": "CLINICAL DOMAIN",
+    "MainComponentID": "cd",
+    "GitRepository": "tpm-source-dataretrievaladapter",
+    "PactName": null,
+    "ConsulKey": "cd-data-retrieval-adapter-brotzu",
+    "ComponentName": "cd-data-retrieval-adapter-brotzu"
+  },
+  {
+    "MainComponentName": "CLINICAL DOMAIN",
+    "MainComponentID": "cd",
+    "GitRepository": "tpm-source-dataretrievaladapter",
+    "PactName": null,
+    "ConsulKey": "cd-data-retrieval-adapter-molinette",
+    "ComponentName": "cd-data-retrieval-adapter-molinette"
+  },
+  {
+    "MainComponentName": "CLINICAL DOMAIN",
+    "MainComponentID": "cd",
+    "GitRepository": "tpm-source-dataretrievaladapter",
+    "PactName": null,
+    "ConsulKey": "cd-data-retrieval-adapter-pula",
+    "ComponentName": "cd-data-retrieval-adapter-pula"
+  },
+  {
+    "MainComponentName": "CLINICAL DOMAIN",
+    "MainComponentID": "cd",
+    "GitRepository": "tpm-source-dataprocessing",
+    "PactName": null,
+    "ConsulKey": "cd-data-processing-brotzu",
+    "ComponentName": "cd-data-processing-brotzu"
+  },
+  {
+    "MainComponentName": "CLINICAL DOMAIN",
+    "MainComponentID": "cd",
+    "GitRepository": "tpm-source-dataprocessing",
+    "PactName": null,
+    "ConsulKey": "cd-data-processing-molinette",
+    "ComponentName": "cd-data-processing-molinette"
+  },
+  {
+    "MainComponentName": "CLINICAL DOMAIN",
+    "MainComponentID": "cd",
+    "GitRepository": "tpm-source-dataprocessing",
+    "PactName": null,
+    "ConsulKey": "cd-data-processing-pula",
+    "ComponentName": "cd-data-processing-pula"
+  },
+  {
+    "MainComponentName": "CLINICAL DOMAIN",
+    "MainComponentID": "cd",
+    "GitRepository": "tpm-source-gnu-health-adapter",
+    "PactName": null,
+    "ConsulKey": "tpm-source-gnu-health-adapter",
+    "ComponentName": "cd-gnu-health-adapter"
+  },
+  {
+    "MainComponentName": "CLINICAL DOMAIN",
+    "MainComponentID": "cd",
+    "GitRepository": "tpm-source-thinkehr-adapter",
+    "PactName": null,
+    "ConsulKey": "tpm-source-thinkehr-adapter",
+    "ComponentName": "cd-thinkehr-adapter"
+  }
+]
